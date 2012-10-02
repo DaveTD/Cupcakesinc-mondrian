@@ -1,0 +1,13 @@
+# PostgreSQL. Versions 8.2 and up are supported.
+#
+# Configure Using Gemfile
+# gem 'activerecord-jdbcpostgresql-adapter'
+
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: cupcakesinc_productexpand_datawarehouse
+  username: awadmin
+  password: awadmin
+  host: localhost
+  pool: 5

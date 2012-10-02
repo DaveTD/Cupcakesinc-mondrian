@@ -1,0 +1,12 @@
+Cupcakesinc-mondrian
+
+This is the last of 3 example projects for Activewarehouse-etl and Mondrian Olap.
+
+Cupcakesinc-transactional: https://github.com/DaveTD/Cupcakesinc-transactional
+Cupcakesinc-etl: https://github.com/DaveTD/Cupcakesinc-etl
+
+This project shows how to access a datawarehouse with the JRuby Mondrian-Olap gem.  It is almost an exact copy of the Mondrian Olap example from https://github.com/rsim/mondrian_demo in function.
+
+The cube has two dimensions (customer and products) and two measures (sales and revenues).  While there is data loaded for a date dimension, I felt that there wasn't enough emphasis on how difficult it can be to create an effective date dimension in a cube, and so I will probably be creating a separate example set for dates only.
+
+The data has been left in, so if you wish to see what was in the original Cupcakesinc project, you will need to add it in here, and modify the etl to include a levels table for date, similar to the product levels ctl.
